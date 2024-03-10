@@ -1,5 +1,7 @@
 pipeline {
-    agent { label: 'my-agent'}
+    agent {
+        label 'my-agent'
+    }
     stages {
         stage('Performance Testing') {
             steps {
