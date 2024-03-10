@@ -1,5 +1,5 @@
 pipeline {
-    agent { lable: 'my-agent'}
+    agent { label: 'my-agent'}
     stages {
         stage('Performance Testing') {
             steps {
